@@ -1,0 +1,64 @@
+body {
+  background: #fff url('../assets/background.jpg') repeat;
+  color: #666;
+  font-family: Avenir, Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+  background: #fff;
+  width: 80%;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 2px 2px 3px #aaa;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #003;
+  color: #fff;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  background: url('../assets/sunset.jpg') no-repeat right center;
+  padding-left: 20px;
+  margin-bottom: 0;
+  height: 72px;
+  line-height: 200%;
+}
+
+nav {
+  padding: 5px;
+  font-weight: bold;
+  background-color: skyblue;
+}
+
+main {
+  padding: 0 20px;
+}
+
+h2 {
+  color: #39c;
+  font-family: Georgia, serif;
+}
+
+h3 {
+  color: #003;
+}
+
+dt {
+  color: #003;
+  font-weight: bold;
+}
+
+.resort {
+  color: #003;
+  font-size: 1.2em;
+}
+
+footer {
+  padding: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+}
