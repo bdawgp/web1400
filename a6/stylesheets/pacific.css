@@ -1,0 +1,100 @@
+body {
+  background: #fff url('../assets/background.jpg') repeat;
+  color: #666;
+  font-family: Avenir, Verdana, Arial, sans-serif;
+}
+
+header, nav, main, footer { display: block; }
+
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  background: skyblue;
+  width: 80%;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 2px 2px 3px #aaa;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #003;
+  color: #fff;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  background: url('../assets/sunset.jpg') no-repeat right center;
+  padding-left: 20px;
+  margin-bottom: 0;
+  height: 72px;
+  line-height: 200%;
+}
+
+nav {
+  padding: 5px;
+  font-weight: bold;
+  float: left; 
+  width: 160px;
+  padding: 20px 5px 0 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav a:link { color: #003; }
+nav a:visited { color: #344873; }
+nav a:hover { color: #fff; }
+
+main {
+  padding: 1px 20px;
+  background: #fff;
+  margin-left: 170px;
+}
+
+main img {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+main ul {
+  list-style-position: inside;
+}
+
+h2 {
+  color: #39c;
+  font-family: Georgia, serif;
+}
+
+h3 {
+  color: #003;
+}
+
+dt {
+  color: #003;
+  font-weight: bold;
+}
+
+.resort {
+  color: #003;
+  font-size: 1.2em;
+}
+
+footer {
+  background: #fff;
+  margin-left: 170px;
+  padding: 10px;
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+}
